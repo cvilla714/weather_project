@@ -1,6 +1,8 @@
 //1.0 create the variable to store the API key //1.21 new key becaus i exceeded the amount allowed
 // const key = "yLusZeOGNvWJKaXAtPTDaAg5kGAZxSe2";
-const key = "NA8O9d35RAnIA5zrVlNy25ojR1LnsHea";
+// const key = "NA8O9d35RAnIA5zrVlNy25ojR1LnsHea";
+// new key as of 7/10/2020
+const key = "Fa1tORczSKnflphuiPFCKU303Z04wWn9";
 
 //1.11 get the Weather information by creating the function
 const getWeather = async (locationid) => {
