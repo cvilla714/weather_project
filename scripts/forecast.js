@@ -8,7 +8,7 @@ const key = "Fa1tORczSKnflphuiPFCKU303Z04wWn9";
 //1.11 get the Weather information by creating the function
 const getWeather = async (locationid) => {
   //1.12 adding the variables to 2nd endpoint
-  const baseWeather = "http://dataservice.accuweather.com/currentconditions/v1/";
+  const baseWeather = "https://dataservice.accuweather.com/currentconditions/v1/";
   //1.13 adding the key to the end of the basewheather
   const queryWeather = `${locationid}?apikey=${key}`;
 
@@ -27,7 +27,7 @@ const getWeather = async (locationid) => {
 //1.1 create the promise function //1.4 add the city parameter
 const getCity = async (city) => {
   //1.2 add the endpoint for fetching the API
-  const baseCity = "http://dataservice.accuweather.com/locations/v1/cities/search";
+  const baseCity = "https://dataservice.accuweather.com/locations/v1/cities/search";
   //1.3 add the apikey and for me not to hardcode it i will create a template
   const queryCity = `?apikey=${key}&q=${city}`;
 
